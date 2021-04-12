@@ -1,4 +1,5 @@
-# a rust Library contains functions for dealing with numbers without converting them to string
+# rust_digits
+a rust Library contains functions for dealing with numbers without converting them to string
 
 ## functions:
 ``` rust
