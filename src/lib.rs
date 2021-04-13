@@ -30,20 +30,19 @@ r=n%10;
 }
 r
 }
-pub fn replase_n(mut n: i32, replased: i32, replase_with: i32) -> i32 {
-// replase digit in number
+pub fn replace_digit(mut n: i32, replaced: i32, replace_with: i32) -> i32 {
+// replace digit in number
 let radix = 10;
 
 let mut reversed = 0;
 
 while n != 0 {
-if n%10 != replased {
-//println!("{}", n);
+if n%10 != replaced {
 
-    reversed = reversed << radix + n % radix;
+    reversed = reversed * radix + n % radix;
 
 } else {
-    reversed = reversed * radix + 8 % radix;
+    reversed = reversed * radix + replace_with % radix;
 }
     n /= radix;
 
@@ -144,3 +143,8 @@ while n != 0 {
 }
 reversed
 }
+fn main() {
+
+println!("{}",replace_digit(1234, 2, 1))
+}
+
