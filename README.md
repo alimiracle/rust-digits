@@ -8,7 +8,7 @@ pub fn min_digit(mut n: i32) -> i32 // min digit in the number
 
 pub fn max_digit(mut n: i32) -> i32 // max digit in the number
 
-pub fn replase_n(mut n: i32, replased: i32, replase_with: i32) -> i32 // replase digit in number
+pub fn replace_digit(mut n: i32, replaced: i32, replace_with: i32) -> i32 // replace digit in number
 
 pub fn remove_n(mut n: i32, removed: i32) -> i32 //remove digit from number
 

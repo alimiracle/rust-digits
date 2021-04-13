@@ -143,8 +143,4 @@ while n != 0 {
 }
 reversed
 }
-fn main() {
-
-println!("{}",replace_digit(1234, 2, 1))
-}
 
