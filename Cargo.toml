@@ -1,8 +1,11 @@
 [package]
 name = "rust_digits"
-version = "1.0"
+version = "1.0.0"
 authors = ["alimiracle <alimiracle@riseup.net>"]
 edition = "2018"
+description = "rust Library contains functions for dealing with numbers without converting them to string"
+license = "gpl v3"
+repository = "https://notabug.org/alimiracle/rust-digits.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
