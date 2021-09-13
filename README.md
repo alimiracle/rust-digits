@@ -32,5 +32,5 @@ pub fn reverse_n(mut n: i32) -> i32 // reverse the number
 ## Install
 
 Add the following line to your Cargo.toml file:
- rust_digits = "1.0.0"
 
+ rust_digits = "1.0.0"
