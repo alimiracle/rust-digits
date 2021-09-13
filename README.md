@@ -1,7 +1,7 @@
 # rust_digits
 this is rust Library contains functions for dealing with numbers without converting them to string
 
-## functions:
+## Functions:
 ``` rust
 
 pub fn min_digit(mut n: i32) -> i32 // min digit in the number
@@ -27,4 +27,10 @@ pub fn first_digit(mut n: i32) -> i32 // last digit in the number
 pub fn reverse_n(mut n: i32) -> i32 // reverse the number
 ```
 
+
+
+## Install
+
+Add the following line to your Cargo.toml file:
+ rust_digits = "1.0.0"
 
